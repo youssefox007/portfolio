@@ -16,7 +16,7 @@ window.portfolioData = {
       title: "BudgetWise",
       description:
         "Personal finance app for expenses, budgets, reports, accounts, goals, recurring transactions, and CSV export.",
-      image: "assets/budget-wise.png",
+      image: "assets/store-icons/budgetwise.png",
       accent: "#4f7cff",
       links: [
         {
@@ -31,7 +31,7 @@ window.portfolioData = {
       title: "Lendora",
       description:
         "Peer-to-peer rental marketplace for Morocco with listings, booking requests, messaging, reviews, reports, and account safety flows.",
-      image: "assets/lendora.png",
+      image: "assets/store-icons/lendora.png",
       accent: "#33d6a6",
       links: [
         {
@@ -46,14 +46,10 @@ window.portfolioData = {
       title: "Fixili",
       description:
         "Service marketplace connecting customers with local providers, request workflows, provider tools, and operational management.",
-      image: "assets/fixili.png",
+      image: "assets/store-icons/fixili.png",
       accent: "#ff7a45",
       links: [
-        {
-          label: "Android",
-          kind: "play",
-          url: "https://play.google.com/store/apps/details?id=com.vrTech.fixili"
-        },
+        { label: "Android", kind: "play", status: "Soon" },
         { label: "iOS", kind: "apple", status: "Soon" }
       ]
     }
