@@ -49,7 +49,11 @@ window.portfolioData = {
       image: "assets/store-icons/fixili.png",
       accent: "#ff7a45",
       links: [
-        { label: "Android", kind: "play", status: "Soon" },
+        {
+          label: "Android",
+          kind: "play",
+          url: "https://play.google.com/store/apps/details?id=com.sosox.fixili"
+        },
         { label: "iOS", kind: "apple", status: "Soon" }
       ]
     }
