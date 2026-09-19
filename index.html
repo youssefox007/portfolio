@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Youssef Issaoui, fullstack and mobile developer building published mobile apps."
+    />
+    <title>Youssef Issaoui | Fullstack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Youssef Issaoui home">
+        <span class="brand-avatar">YI</span>
+        <span>
+          <strong id="brand-name">Youssef Issaoui</strong>
+          <small id="brand-role">Fullstack Developer</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Portfolio sections">
+        <a href="#apps">Apps</a>
+        <a href="#stack">Stack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="whatsapp-button header-whatsapp" id="header-whatsapp" href="#">
+        <i data-lucide="message-circle" aria-hidden="true"></i>
+        <span>WhatsApp</span>
+      </a>
+    </header>
+
+    <main id="top" class="site-canvas">
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title">From idea to the App Store.</h1>
+        <p id="hero-copy"></p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#apps">Explore the apps</a>
+          <a class="secondary-action whatsapp-link" href="#">
+            <i data-lucide="message-circle" aria-hidden="true"></i>
+            Chat on WhatsApp
+          </a>
+        </div>
+      </section>
+
+      <section class="showcase" id="apps" aria-labelledby="apps-title">
+        <div class="section-intro">
+          <h2 id="apps-title">Apps for the stores.</h2>
+          <p id="apps-copy"></p>
+          <span class="count-pill" id="apps-count"></span>
+        </div>
+        <div class="product-grid app-grid" id="app-grid"></div>
+      </section>
+
+      <section class="contact-strip app-strip" aria-label="App project contact">
+        <h2>Have an app idea?</h2>
+        <p>One developer - from design to the stores.</p>
+        <a class="whatsapp-button whatsapp-link" href="#">
+          <i data-lucide="message-circle" aria-hidden="true"></i>
+          Let's talk
+        </a>
+      </section>
+
+      <section class="stack-section" id="stack" aria-labelledby="stack-title">
+        <div class="section-intro">
+          <h2 id="stack-title">Built with.</h2>
+          <p>The stack behind every project.</p>
+        </div>
+        <div class="stack-grid" id="stack-grid"></div>
+      </section>
+
+      <section class="final-cta" id="contact" aria-labelledby="contact-title">
+        <span class="availability">Available for new projects</span>
+        <h2 id="contact-title">Let's build something great</h2>
+        <p>Tell me your idea - I'll design, build and ship it.</p>
+        <a class="whatsapp-button whatsapp-link" href="#">
+          <i data-lucide="message-circle" aria-hidden="true"></i>
+          Chat on WhatsApp
+        </a>
+        <small id="contact-line"></small>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#apps">Apps</a>
+          <a href="#stack">Stack</a>
+          <a href="mailto:Youssf.issaoui@gmail.com">Email</a>
+        </nav>
+
+        <p class="footer-note">© <span id="footer-year"></span> Youssef Issaoui. Built with care in Morocco.</p>
+      </div>
+    </footer>
+
+    <a class="floating-whatsapp whatsapp-link" href="#" aria-label="Chat on WhatsApp">
+      <i data-lucide="message-circle" aria-hidden="true"></i>
+    </a>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="portfolio.config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
