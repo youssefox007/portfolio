@@ -71,11 +71,21 @@ function stackItem(item, index) {
   `;
 }
 
+function publishingItem(item) {
+  return `
+    <article class="publishing-item">
+      <i data-lucide="check" aria-hidden="true"></i>
+      <span>${item}</span>
+    </article>
+  `;
+}
+
 $("#brand-name").textContent = data.profile.name;
 $("#brand-role").textContent = data.profile.role;
 $("#hero-copy").textContent = data.profile.hero;
 $("#apps-copy").textContent = data.profile.appIntro;
 $("#apps-count").textContent = `${data.apps.length} apps`;
+$("#publishing-copy").textContent = data.profile.publishingIntro;
 $("#contact-line").textContent = `${data.profile.phone} - Usually replies within a few hours`;
 
 document.querySelectorAll(".whatsapp-link, #header-whatsapp").forEach((link) => {
@@ -85,6 +95,7 @@ document.querySelectorAll(".whatsapp-link, #header-whatsapp").forEach((link) => 
 });
 
 $("#app-grid").innerHTML = data.apps.map((item) => productCard(item, "app")).join("");
+$("#publishing-grid").innerHTML = data.publishing.map(publishingItem).join("");
 $("#stack-grid").innerHTML = data.stack.map(stackItem).join("");
 $("#footer-year").textContent = new Date().getFullYear();
 

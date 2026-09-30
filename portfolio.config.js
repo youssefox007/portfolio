@@ -6,10 +6,21 @@ window.portfolioData = {
     email: "Youssf.issaoui@gmail.com",
     whatsappUrl: "https://wa.me/212658072272",
     hero:
-      "Fullstack developer shipping real mobile products to Google Play, App Store, Firebase, and the web.",
+      "Mobile and fullstack developer building real apps for Google Play and the App Store, with Firebase, release builds, privacy setup, and store submission support.",
     appIntro:
-      "Three production apps built end to end, with Android live and iOS releases coming soon."
+      "Three production apps built end to end, with Android live and iOS releases coming soon.",
+    publishingIntro:
+      "I help prepare mobile apps for Google Play and the App Store, from release builds to review-ready store configuration."
   },
+
+  publishing: [
+    "IPA and AAB release builds",
+    "App Store Connect and Play Console setup",
+    "Firebase configuration for production apps",
+    "Privacy forms, encryption questions, and reviewer notes",
+    "Screenshots, store metadata, and release preparation",
+    "Account deletion and app review requirements"
+  ],
 
   apps: [
     {
