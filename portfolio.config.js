@@ -50,7 +50,7 @@ window.portfolioData = {
           kind: "play",
           url: "https://play.google.com/store/apps/details?id=com.vrTech.lendora"
         },
-        { label: "iOS", kind: "apple", status: "Soon" }
+        { label: "iOS", kind: "apple", url: "https://apps.apple.com/ma/app/lendora-rentals/id6808771538" }
       ]
     },
     {
