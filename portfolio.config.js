@@ -8,7 +8,7 @@ window.portfolioData = {
     hero:
       "Mobile and fullstack developer building real apps for Google Play and the App Store, with Firebase, release builds, privacy setup, and store submission support.",
     appIntro:
-      "Three production apps built end to end, with Android live and iOS releases coming soon.",
+      "Three production apps built end to end and actively shipping across Google Play and the App Store.",
     publishingIntro:
       "I help prepare mobile apps for Google Play and the App Store, from release builds to review-ready store configuration."
   },
